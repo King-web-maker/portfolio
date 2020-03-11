@@ -187,7 +187,7 @@ a:hover, a:active, a:focus {
   margin-top: -10px;
   margin-left: -10px;
   border-radius: 50%;
-  border: 2px solid #454545;
+  border: 2px solid #ec5050;
   border-top-color: #ffffff;
   animation: spinner .9s linear infinite;
 }
@@ -198,6 +198,11 @@ a:hover, a:active, a:focus {
   to {transform: rotate(360deg);}
 }
 
+.spinner p{
+  width: 100%;
+  margin-top: 80%;
+  margin-left: 15%;
+}
 
 
 /*---------------------------------------
